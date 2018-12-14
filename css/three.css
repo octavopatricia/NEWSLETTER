@@ -1,0 +1,207 @@
+a {
+	text-decoration: none;
+}
+body, html {
+  height:100%;
+  margin:0;
+  font-size:16px;
+  font-weight:400;
+  line-height:1.8em;
+  background:white;
+  padding:0;
+  scroll-behavior:smooth;
+}
+section {
+	background:white;
+	padding: 1px 50px 1px ;
+}
+#link {
+	color:black;
+}
+.FIRST {
+	padding: 20px;
+	
+}
+.SECOND {
+	border: 2px solid black;
+}
+.dropbtn {
+  background-color: #80dfff;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: inline-block;
+  margin-right:20px;
+  float:right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 48px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: skyblue;
+}
+.header {
+	padding:0;
+}
+#date {
+	text-align: center;
+	font-family: Century Gothic;
+	color: grey;
+	background: white;
+}
+.title{
+	text-align: center;
+	font-family: Copperplate Gothic;
+	font-size: 50px;
+}
+*{
+	 margin: 0;
+	 padding: 0;
+}
+
+.slider{
+	margin-top: 10px;
+	overflow: hidden;
+	height: 100%;
+}
+.slider figure div{
+	width: 20%;
+	float: left;
+}
+.slider figure img{
+	height: 50%;
+	width: 100%;
+	float: left;
+}
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slidy infinite;
+}
+@keyframes slidy{
+	0%{
+		left: 0%;
+	}
+	10%{
+		left: 0%;
+	}
+	12%{
+		left: -100%;
+	}
+	22%{
+		left: -100%;
+	}
+	24%{
+		left: -200%;
+	}
+	34%{
+		left: -200%;
+	}
+	36%{
+		left: -300%;
+	}
+	46%{
+		left: -300%;
+	}
+	48%{
+		left: -400%;
+	}
+	58%{
+		left: -400%;
+	}
+	60%{
+		left: -300%;
+	}
+	70%{
+		left: -300%;
+	}
+	72%{
+		left: -200%;
+	}
+	82%{
+		left: -200%;
+	}
+	84%{
+		left: -100%;
+	}
+	94%{
+		left: -100%;
+	}
+	96%{
+		left: 0%;
+	}
+
+}
+#name {
+	font-family: Copperplate Gothic;
+	text-align: center;
+	color: black;
+}
+.RELY {
+	font-family: Cordia New;
+	text-align: center;
+	color: grey;
+}
+
+
+.container {
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr ;
+	grid-gap: 5px;
+}
+#image {
+	margin-left:19px;
+	margin-top:13px;
+}
+#youth {
+	font-family: Copperplate Gothic;
+	text-align: left;
+	margin-top:10px;
+	font-weight: 900;
+	margin-left: 10px;
+}
+.one {
+	background:white;
+}
+.two {
+	background:white;
+}
+.three {
+	background:white;
+}
+.par {
+	font-family: Cordia New;
+	font-weight: normal;
+	text-align: left;
+	margin-left: 10px;
+}
